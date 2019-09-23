@@ -14,17 +14,18 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+/
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd
 
 ==========
 3. Write the command that you would use to change to your Desktop folder.
-----------
+-----------
+cd /user/student/desktop
 
 
 
@@ -32,35 +33,35 @@ Feel free to use your workstation to test your answers to the questions that don
 4. What's the absolute path to your home directory?
 ----------
 
-
+/users/student
 
 ==========
 5. What's the absolute path to your Desktop directory?
 ----------
 
-
+/users/student/desktop
 
 ==========
 6. What's the absolute path to your Desktop directory?
 ----------
 
-
+/users/students/desktop
 
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
 ----------
-
+desktop
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir -p desktop/stuff
 
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir - /desktop/more-stuff
 
 
 ==========
@@ -78,21 +79,22 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 12. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
-
+cd ../..
 
 
 ==========
 13. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/profesor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
-----------
-
+---------
+cd -
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
-
+ls - al desktop
 ==========
 15. 
 a. Create the following directory structure on...
 b. A folder called my-stuff should be on your desktop.  There should be two additional directories within it: archived, current.
+mkdir my-stuff my-stuff/archived my-stuff/current
 c. Determine the name of your computer.
 d. Create another directory in my-stuff that's the same name as your computer.
 e. Determine which folder in my-stuff was created most recently by using ls.  (there are some flags that help with this).
