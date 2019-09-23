@@ -18,8 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
-
+hello
 
 ==========
 2. Type:
@@ -28,8 +27,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
-
+hello there
 
 ==========
 3. Type:
@@ -39,8 +37,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
-
+> echo good mornin
 ==========
 4. Uh-oh... we're stuck!
 
@@ -56,8 +53,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
+good mornin
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -66,7 +62,7 @@ $ echo *
 
 What happens?
 ----------
-
+It list a bunch of directories.
 
 
 ==========
@@ -74,6 +70,7 @@ What happens?
 
 Write the command that you used below:
 ----------
+clear
 
 
 
@@ -87,6 +84,13 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+v314-ent-009:~ student$ 
 
 
 
@@ -97,8 +101,8 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
 
 ==========
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
